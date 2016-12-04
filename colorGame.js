@@ -13,7 +13,7 @@ var hardBtn = document.getElementById("hardBtn");
 easyBtn.addEventListener("click", function(){
     easyBtn.classList.add("selected");
     hardBtn.classList.remove("selected");
-    numOfSquaresres = 3;
+    numOfSquares = 3;
     colors = generateRandomColors(numOfSquares);
     pickedColor = pickColor();
     colorDisplay.textContent = pickedColor;
